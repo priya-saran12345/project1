@@ -1,0 +1,161 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.nav 
+{
+width: 100%;
+display: flex;
+align-items: end;
+padding-top: 20px;
+justify-content: space-around;
+border-bottom: 3px solid rgb(184, 12, 12);
+background-image: linear-gradient( to bottom  ,white  ,rgb(226, 223, 223) );
+padding-right: 20%;
+box-sizing: border-box;
+}
+.nav-left{
+    margin-left: 10vw;
+    text-transform: capitalize;
+}
+.side-nav{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 75%;
+    padding: 5px 14px;
+    margin-left: 10%;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.right-h3{
+    text-transform: uppercase;
+color: rgb(12, 5, 75);
+font-size: 14px;
+background-color: rgb(209, 209, 211);
+padding: 7px;
+}
+.right-inner{
+    background-color: white;
+    border: 1px solid rgb(216, 216, 244);
+    padding:4px;
+    font-size: 14.5px;
+}
+.inner-span{
+    color: blue;
+    margin-right: 20px;
+}
+
+.name a{
+    color: black;
+    text-transform: capitalize;
+}
+
+.name a p{
+    margin-right: 15px;
+    
+}
+.name a h4{
+    color: rgb(185, 170, 170);    
+}
+.more a h3{
+    margin-left: 7vw;
+}
+.inner-most{
+    display: flex;
+    border: 3px solid black;
+    justify-content: space-between;
+    width: 55%;
+    margin:  3% auto 2%;
+    
+}
+.inner-most-left{
+    margin: 10px 0 0  10px;
+
+}
+.div-list{
+    display: flex;
+    margin: 5% 15% 10% 4%;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 100%;
+    gap: 50px;
+}
+
+li a p{
+    color: rgb(94, 91, 91);
+line-height: 25px;
+}
+a{
+    text-decoration: none;
+}
+a p:hover{
+    color: red;
+}
+.inner-most img{
+    border-left: 2px solid black;
+    width:38% ;
+}  
+.welcome{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin:20px 0% 0px 22%  ;
+    
+}
+.h3{
+    margin-left: 40%;
+}
+.h4{
+    margin-left: 43%;
+
+}
+.last{
+    border-top: 4px solid rgb(204, 10, 10);
+    padding-top: 30px;
+    margin-top: 10px;
+    background-color: rgb(60, 58, 58);
+    display: flex;
+    align-items: start;justify-content: center;
+    gap: 10%;
+    color: white;
+box-sizing: border-box;
+    width: 100%;}
+    .last p{
+        color: rgb(150, 146, 146);
+    }
+    .h2{
+        color: white;
+        text-transform: uppercase;
+    }
+    .last p:hover{
+        color: white;
+    }
+    .list2{
+        border-top: 2px solid white;
+        margin-top: 15px;
+        padding-top: 20px;
+        font-size: 14px;
+        
+
+    }
+    .list2 a p {
+        line-height: 15px;
+    }
+    .about-me{
+    background-color: rgb(60, 58, 58);
+padding-bottom: 70px;
+color: rgb(246, 13, 13);
+font-size: 20px;
+text-align: right;
+padding-right: 7%;
+box-sizing: border-box;
+    }
+    .about-me a{
+        color: rgb(246, 13, 13);
+    }
+    .about-me a:hover{
+        color: burlywood;
+        text-decoration:underline;
+    }
